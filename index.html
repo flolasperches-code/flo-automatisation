@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Florence Lasperches — Automatisation administrative no-code & IA</title>
+<meta name="description" content="J'automatise les tâches administratives répétitives des TPE, des cabinets et des associations avec le no-code et l'IA.">
+<style>
+  :root{
+    --ink:#1d2a2f; --muted:#5b6b70; --bg:#f7f4ef; --card:#ffffff;
+    --accent:#0f6e6a; --accent-soft:#e1efed; --warm:#d9774b; --line:#e4ded4;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Segoe UI",system-ui,-apple-system,Roboto,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+  a{color:var(--accent)}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  header{padding:72px 0 56px}
+  .tag{display:inline-block;background:var(--accent-soft);color:var(--accent);font-weight:600;font-size:.85rem;padding:6px 12px;border-radius:999px;margin-bottom:20px}
+  h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.1rem,5vw,3.4rem);line-height:1.15;font-weight:700;max-width:780px}
+  h1 em{font-style:normal;color:var(--warm)}
+  .lead{font-size:1.15rem;color:var(--muted);max-width:640px;margin-top:20px}
+  .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+  .btn{display:inline-block;padding:12px 22px;border-radius:10px;font-weight:600;text-decoration:none}
+  .btn.primary{background:var(--accent);color:#fff}
+  .btn.ghost{border:1.5px solid var(--accent);color:var(--accent)}
+  section{padding:56px 0;border-top:1px solid var(--line)}
+  h2{font-family:Georgia,serif;font-size:1.8rem;margin-bottom:8px}
+  .sub{color:var(--muted);margin-bottom:32px}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+  .stat b{display:block;font-family:Georgia,serif;font-size:2rem;color:var(--accent)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px;display:flex;flex-direction:column}
+  .card .num{font-size:.8rem;font-weight:700;color:var(--warm);letter-spacing:.08em}
+  .card h3{font-size:1.15rem;margin:6px 0 10px}
+  .card p{color:var(--muted);font-size:.95rem;flex:1}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0}
+  .chip{background:var(--accent-soft);color:var(--accent);font-size:.78rem;font-weight:600;padding:4px 10px;border-radius:999px}
+  .status{font-size:.8rem;color:var(--muted)}
+  .status::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--warm);margin-right:6px}
+  .card a.more{margin-top:12px;font-weight:600;text-decoration:none}
+  .tools{display:flex;flex-wrap:wrap;gap:10px}
+  .tool{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 16px;font-weight:600}
+  ul.certs{list-style:none;display:grid;gap:10px}
+  ul.certs li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  ul.certs span{color:var(--muted);font-size:.9rem}
+  footer{padding:48px 0 64px;border-top:1px solid var(--line);color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">Automatisation no-code &amp; IA</span>
+    <h1>Je fais gagner des heures d'<em>administratif</em> aux TPE, cabinets et associations.</h1>
+    <p class="lead">Florence Lasperches. Après 20 ans dans l'administratif et la qualité, j'automatise les tâches répétitives (devis, relances, factures, mails, inscriptions) avec Make, n8n, Airtable et l'intelligence artificielle.</p>
+    <div class="cta">
+      <a class="btn primary" href="#projets">Voir mes projets</a>
+      <a class="btn ghost" href="#contact">Me contacter</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Mon parcours</h2>
+    <p class="sub">Je connais le terrain : je sais où se perd le temps dans un bureau.</p>
+    <div class="stats">
+      <div class="stat"><b>20 ans</b>d'expérience administrative</div>
+      <div class="stat"><b>15 ans</b>en gestion de cabinet : accueil, devis, facturation</div>
+      <div class="stat"><b>2 ans</b>de référente qualité : audits, procédures, conformité</div>
+    </div>
+  </section>
+
+  <section id="projets">
+    <h2>Projets</h2>
+    <p class="sub">Chaque projet part d'un vrai problème de bureau. Les démonstrations utilisent des données fictives.</p>
+    <div class="grid">
+      <article class="card">
+        <span class="num">PROJET 01</span>
+        <h3>Devis → relance → facture automatiques</h3>
+        <p>Le devis part tout seul, la relance est envoyée à J+7 sans réponse et la facture se crée à l'acceptation.</p>
+        <div class="chips"><span class="chip">Tally</span><span class="chip">Airtable</span><span class="chip">Make</span><span class="chip">Gmail</span></div>
+        <span class="status">En préparation</span>
+        <a class="more" href="https://github.com/flolasperches-code/flasperches/tree/main/projets/01-devis-relance-facture">Détails →</a>
+      </article>
+      <article class="card">
+        <span class="num">PROJET 02</span>
+        <h3>Lecture automatique des factures fournisseurs</h3>
+        <p>L'IA lit chaque facture reçue par mail et range le fournisseur, la date et le montant dans un tableau de suivi.</p>
+        <div class="chips"><span class="chip">Gmail</span><span class="chip">Make</span><span class="chip">IA</span><span class="chip">Google Sheets</span></div>
+        <span class="status">En préparation</span>
+        <a class="more" href="https://github.com/flolasperches-code/flasperches/tree/main/projets/02-factures-fournisseurs-ia">Détails →</a>
+      </article>
+      <article class="card">
+        <span class="num">PROJET 03</span>
+        <h3>Tri intelligent de la boîte mail</h3>
+        <p>L'IA classe les mails entrants et prépare un brouillon de réponse, toujours validé par une personne avant l'envoi.</p>
+        <div class="chips"><span class="chip">Gmail</span><span class="chip">Make</span><span class="chip">IA</span></div>
+        <span class="status">En préparation</span>
+        <a class="more" href="https://github.com/flolasperches-code/flasperches/tree/main/projets/03-tri-mails-ia">Détails →</a>
+      </article>
+      <article class="card">
+        <span class="num">PROJET 04</span>
+        <h3>Inscriptions et bénévoles d'une association</h3>
+        <p>Formulaire unique, confirmations, listes par activité, rappel la veille et planning des bénévoles, sans ressaisie.</p>
+        <div class="chips"><span class="chip">Tally</span><span class="chip">Airtable</span><span class="chip">Make</span></div>
+        <span class="status">En préparation</span>
+        <a class="more" href="https://github.com/flolasperches-code/flasperches/tree/main/projets/04-association-inscriptions">Détails →</a>
+      </article>
+      <article class="card">
+        <span class="num">PROJET 05</span>
+        <h3>Accueil d'un nouveau salarié</h3>
+        <p>Une fiche remplie déclenche la checklist d'intégration, les mails de bienvenue et les rappels de documents.</p>
+        <div class="chips"><span class="chip">Airtable</span><span class="chip">Make</span><span class="chip">Notion</span></div>
+        <span class="status">En préparation</span>
+        <a class="more" href="https://github.com/flolasperches-code/flasperches/tree/main/projets/05-accueil-nouveau-salarie">Détails →</a>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>Outils</h2>
+    <p class="sub">Des outils accessibles, sans développement, que mes clients peuvent garder en main.</p>
+    <div class="tools">
+      <span class="tool">Make</span><span class="tool">n8n</span><span class="tool">Airtable</span><span class="tool">Google Workspace</span><span class="tool">Tally</span><span class="tool">Notion</span><span class="tool">ChatGPT</span><span class="tool">Claude</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <p class="sub">Mise à jour au fil de ma formation.</p>
+    <ul class="certs">
+      <li>Objectif IA : initiez-vous à l'intelligence artificielle — Institut Montaigne &amp; OpenClassrooms <span>En cours</span></li>
+      <li>Make Academy — Foundation, Basics, Intermediate <span>À venir</span></li>
+      <li>Notion Academy Essentials <span>À venir</span></li>
+      <li>MOOC RGPD — CNIL <span>À venir</span></li>
+    </ul>
+  </section>
+
+  <footer id="contact">
+    <h2>Contact</h2>
+    <p>Un processus qui vous fait perdre du temps ? Parlons-en.</p>
+    <p>E-mail et LinkedIn : à compléter.</p>
+  </footer>
+</div>
+</body>
+</html>
