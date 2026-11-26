@@ -2,7 +2,7 @@
 
 J'automatise les tâches administratives répétitives des TPE, des cabinets et des associations, avec des outils no-code (Make, n8n, Airtable) et l'intelligence artificielle.
 
-**Site vitrine :** https://flolasperches-code.github.io/flasperches/
+**Site vitrine :** https://flolasperches-code.github.io/flo-automatisation/
 
 ## Mon profil
 
